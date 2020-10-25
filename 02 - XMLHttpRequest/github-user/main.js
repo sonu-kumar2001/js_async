@@ -4,6 +4,7 @@ let form = document.querySelector('form');
 
 function handler(event) {
     root.innerText = ''
+    event.preventDefault();
     xhr.open('GET',`https://api.github.com/users/${event.target.username.value}`);
     console.log(event.target.username.value);
     xhr.onload = function () {
