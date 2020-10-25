@@ -58,46 +58,30 @@ table {
     margin: 40px auto;
     padding: 30px;
 }
-input[name= "username"] {
-    width: 100%;
-    padding: 20px;
-    border-radius: 8px;
-    outline: none;
-    margin-bottom: 60px;
-}
-input[name= "username"]::placeholder {
-    font-size: 24px;
-    font-weight: 500;
-    text-transform: capitalize;
-}
 h1 {
     font-size: 34px;
-    font-weight: 600;
-    margin-bottom: 20px;
-    color: rgb(53, 53, 170);
-}
-h2 {
     text-align: center;
-    font-size: 32px;
-    margin-bottom: 25px;
-}
-h3 {
-    font-size: 28px;
-    font-weight: 500;
+    font-weight: 700;
     margin-bottom: 20px;
-    color: blueviolet;
+    text-transform: capitalize;
 }
-.flex {
-    display: flex;
+.root {
+    text-align: center;
 }
 img {
-    height: 400px;
-    width: 400px;
-    border-radius: 4px;
-    margin-right: 25px;
+    height: 500px;
+    width: auto;
 }
-.card {
-    box-shadow: 4px 4px 3px 3px #a1a1a1;
-    padding: 30px;
+a {
+    text-decoration: none;
+    background-color: rgb(65, 65, 163);
+    padding: 20px;
+    color: #ffffff;
     border-radius: 4px;
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto;
+    position: relative;
+    left: 35%;
 }
